@@ -27,9 +27,9 @@ public class BinarySearch {
             myArray[i] = i;
         }
         for (int count: myArray) {
-            System.out.println(count);
+            System.out.print(count + " ");
         }
-        System.out.println(binarySearch(myArray, 12));
+        System.out.println("\n" + binarySearch(myArray, 12));
         System.out.println(binarySearch(myArray, 4));
         System.out.println(binarySearch(myArray, 26));
     }
